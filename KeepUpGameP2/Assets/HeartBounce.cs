@@ -31,7 +31,7 @@ public class HeartBounce : MonoBehaviour {
 					numHits ++;
 				}
 				
-			GetComponent<Rigidbody>().velocity = new Vector3((GetComponent<Rigidbody>().velocity.x, storedVelocity.y, GetComponent<Rigidbody>().velocity.z);
+			GetComponent<Rigidbody>().velocity = new Vector3(GetComponent<Rigidbody>().velocity.x, storedVelocity.y, GetComponent<Rigidbody>().velocity.z);
 		}
 	}
 	
@@ -44,7 +44,7 @@ public class HeartBounce : MonoBehaviour {
 		{
 			str = numHits.ToString();
 		} else {
-			str = "Hits:" + numHits.ToString() + "/nYour best:" + bestScore;
+			str = "Hits:" + numHits.ToString() + "\nYour best:" + bestScore;
 			
 			if(bestScore > lastBest) str += "\nNEW RECORD!";
 		}
