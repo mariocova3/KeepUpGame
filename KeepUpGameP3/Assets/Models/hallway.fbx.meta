@@ -3,8 +3,15 @@ guid: 3edf219bea172ba40b8c6e4f738a69c7
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
+    100000: Hallway
+    100002: //RootNode
+    400000: Hallway
+    400002: //RootNode
+    2300000: Hallway
+    3300000: Hallway
     4300000: Cube.005
     4300002: Hallway
+    11100000: //RootNode
   materials:
     importMaterials: 1
     materialName: 3
