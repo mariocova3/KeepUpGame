@@ -1,0 +1,6 @@
+<linker>
+<assembly fullname="Assembly-CSharp">
+<type fullname="HeartBounce" preserve="all"/>
+<type fullname="MouseFollow" preserve="all"/>
+</assembly>
+</linker>
